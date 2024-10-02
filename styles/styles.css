@@ -41,6 +41,11 @@ aside {
     color: #312525;
     text-align: center;
 }
+aside h2 {
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
 
 aside img {
     width: 200px;
@@ -50,6 +55,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 
 p {
