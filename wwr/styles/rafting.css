@@ -3,10 +3,10 @@
     --secondary-color: #557370;
     --accent1: #948e45;
     --accent2: #a9d3ff;
-    --heading-font: 'Noto Sans';
-    --body-font: 'Lato';
-    --heading-font-size: 'ExtraBold 800';
-    --body-font-size: 'Regular 400';
+    --heading-font: 'Merriweather';
+    --body-font: 'Roboto';
+    --heading-font-size: '400;700;900';
+    --body-font-size: '400;700';
     --max-width: 1200px;
 }
 h1, h2 {
