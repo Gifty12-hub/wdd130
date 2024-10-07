@@ -3,12 +3,13 @@
     --secondary-color: #557370;
     --accent1: #948e45;
     --accent2: #a9d3ff;
-    --heading-font: 'Merriweather';
-    --body-font: 'Roboto';
+    --heading-font: 'Noto Sans';
+    --body-font: 'Lato';
     --heading-font-size: '400;700;900';
     --body-font-size: '400;700';
     --max-width: 500px;
 }
+
 h1, h2 {
   padding: 5px;
   margin-bottom: 10px;
