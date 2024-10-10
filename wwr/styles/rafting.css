@@ -85,3 +85,29 @@ header, main, footer {
 .sociallinks img {
   width: 60px;
 }
+header {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  align-items: center;
+  padding: 20px;
+
+}
+nav {
+  display: flex;
+  list-style: none;
+}
+.history {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history {
+  margin-top: 0;
+}
+
+.history-item p {
+  margin-bottom: 0;
+}
