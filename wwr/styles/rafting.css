@@ -36,14 +36,14 @@ header, main, footer {
 }
 .hero h1 {
   position: absolute;
-  top: 2%;
+  top: 10px;
   left: 5%;
   right: 5%;
   background-color: rgba(0, 255, 255, 0.371);
   border: 4px solid rgba(8, 243, 8, 0.304);
   text-align: center;
   font-size: 3rem;
-  color: #fff;
+  color: #993636;
 }
 
 .hero article {
@@ -85,29 +85,5 @@ header, main, footer {
 .sociallinks img {
   width: 60px;
 }
-header {
-  display: grid;
-  grid-template-columns: 1.5fr 1.5fr;
-  align-items: center;
-  padding: 20px;
 
-}
-nav {
-  display: flex;
-  list-style: none;
-}
-.history {
-  background-color: #fff;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.history {
-  margin-top: 0;
-}
-
-.history-item p {
-  margin-bottom: 0;
-}
