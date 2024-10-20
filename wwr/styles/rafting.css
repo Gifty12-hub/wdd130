@@ -171,11 +171,13 @@ footer {
 }
 footer p {
   color: #fff;
+  font-family: var(--body-font);
 }
 footer a {
   color:white;
   text-decoration: none;
   text-align: center;
+  font-family: var(--body-font) ;
 }
 .sociallinks {
   display: flex;
