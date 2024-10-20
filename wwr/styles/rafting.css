@@ -268,7 +268,7 @@ button:hover {
 }
 .add-phone {
   grid-row: 1;
-  width: 10;
+  width: 100%;
 }
 .add-phone a, .add-phone address {
   color: #111111;
