@@ -11,6 +11,7 @@
 
 * {
   box-sizing: border-box;
+  
 }
 body {
   font-size: var(--body-font-size);
@@ -126,15 +127,10 @@ nav {
   column-gap: 2em;
   margin: 50px 0;
 }
-.History h2, .Adventure h2 {
+.History h2, .Adventure h2, .Employess h2 {
   grid-column: 1/-1;
   justify-self: center;
   padding: 1em;
-}
-p{
-  display: grid;
-  padding: 20px;
-  color: #0505057a;
 }
   
 .Adventure {
@@ -164,6 +160,11 @@ footer {
 footer p {
   color: #fff;
 }
+footer a {
+  color:white;
+  text-decoration: none;
+  text-align: center;
+}
 .sociallinks {
   display: flex;
   gap: 1em;
@@ -175,4 +176,104 @@ nav a {
   font-family: var(--body-font);
   color: #8a3838;
   text-decoration: none;
+}
+fieldset {
+  display: grid;
+  grid-gap:0.5em;
+  margin: 0.5rem;
+  border: 2px solid rgba(90, 141, 70, 0.918);
+  padding: 0.5em;
+}
+
+form {
+  width:400px;
+  margin: 0;
+  padding:1rem;
+  border: 1px solid rgba(63, 170, 17, 0.753);
+  border-radius: 0.5rem;
+  background-color: #77ad1f;
+  display: grid;
+}   
+.contact {
+  position: absolute;
+  top: 60px;
+  left: 5px;
+  right: 4px;
+  padding: 4px;
+  background-color: rgba(233, 221, 238, 0.5);
+  color: #141212;
+  border-radius: 5px;
+  margin: 1rem;
+  border: 0.5px solid rgba(21, 71, 145, 0.76);
+}
+.contactfields {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+label, input, button, textarea {
+  font-family: 'Noto Sans , serif';
+}
+label {
+  text-align: left;
+  padding-right: 1rem;
+}
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+input[type='checkbox'] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+input[type="radio"] {
+  accent-color: #007BFF; 
+}
+input[type="radio"]:hover {
+  accent-color: #0056b3;
+}
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #b148b4a1;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+}
+button:hover {
+  background-color: darkorange;
+}
+.address {
+  background-color: rgba(94, 77, 77, 0.199);
+  position: absolute;
+  top: 22rem;
+  right: 0.9rem;
+  left: 49rem;
+  width: 34%;
+  padding: 3px;
+}
+.add-phone {
+  grid-row: 1;
+  width: 10;
+}
+.add-phone a, .add-phone address {
+  color: #111111;
+  font-size: 24px;
+  font-weight: 500;
+  display: block;
+  padding: 0.5em;
+}
+.gmap {
+  border: none;
+  grid-row: 2;
+
+}
+.Employess {
+    margin: 50px 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.1rem;
+    justify-items: center;
 }
