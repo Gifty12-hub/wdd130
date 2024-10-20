@@ -2,7 +2,7 @@
   --primary-color: #386da2;
   --secondary-color: #557370;
   --accent1: #948e45;
-  --accent2: #a9d3ff;
+  --accent2: #2572c5;
   --heading-font: 'Noto Sans', sans-serif;
   --body-font: 'Noto Sans', serif;
   --body-font-size: 16px;
@@ -123,7 +123,7 @@ header {
   display: grid;
   grid-template-columns: 250px auto;
   align-items: center;
-  background-color: #5ecdd4;
+  background-color: #119da76c;
 } 
 nav {
   display: flex;
@@ -160,6 +160,7 @@ figure {
 figcaption {
   text-align: center;
   padding: 1em 0;
+  color: #141212;
 }
 footer {
   display: flex;
@@ -188,7 +189,7 @@ nav a {
   padding: 0.5rem;
   margin: -0.14rem;
   font-family: var(--body-font);
-  color: #8a3838;
+  color: #0e0d0d;
   text-decoration: none;
 }
 fieldset {
@@ -273,7 +274,7 @@ button:hover {
   width: 100%;
 }
 .add-phone a, .add-phone address {
-  color: #111111;
+  color: #1cbd45;
   font-size: 24px;
   font-weight: 500;
   display: block;
