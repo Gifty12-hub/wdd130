@@ -69,6 +69,18 @@ header,main,footer {
   color: #993636;
 }
 
+.Employees h1 {
+  position: absolute;
+  top: 800px;
+  left: 5%;
+  right: 5%;
+  background-color: rgba(0, 255, 255, 0.371);
+  border: 2px solid rgba(8, 243, 8, 0.304);
+  text-align: center;
+  font-size: 1rem;
+  color: #993636;
+}
+
 .hero article {
   position: absolute;
   top: 35%;
@@ -127,7 +139,7 @@ nav {
   column-gap: 2em;
   margin: 50px 0;
 }
-.History h2, .Adventure h2, .Employess h2 {
+.History h2, .Adventure h2 {
   grid-column: 1/-1;
   justify-self: center;
   padding: 1em;
@@ -236,7 +248,7 @@ input[type="radio"]:hover {
 button {
   margin: 1rem;
   background-color: navy;
-  color: #b148b4a1;
+  color: #eee8ee;
   border: none;
   border-radius: 0.5rem;
   padding: 0.75rem;
@@ -270,7 +282,7 @@ button:hover {
   grid-row: 2;
 
 }
-.Employess {
+.Employees {
     margin: 50px 5px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
